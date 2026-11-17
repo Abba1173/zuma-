@@ -1,1 +1,47 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zuma Data</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f2f4f8;color:#14213d}
+header{background:#101d3a;color:white;padding:28px 20px;border-radius:0 0 25px 25px;text-align:center}
+header h1{color:#ff941f;margin:0;font-size:30px}
+.wallet{background:white;margin:20px auto;padding:22px;border-radius:16px;text-align:center;max-width:480px;width:calc(100% - 40px)}
+.balance{font-size:32px;font-weight:bold;margin:10px}
+button{background:#ff941f;color:#101d3a;border:0;padding:12px 24px;border-radius:9px;font-weight:bold}
+h2{padding:0 20px;max-width:480px;margin:10px auto}
+.services{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:15px 20px;max-width:480px;margin:auto}
+.service{background:white;padding:25px 10px;border-radius:15px;text-align:center;font-weight:bold}
+.service span{display:block;font-size:30px;margin-bottom:10px}
+footer{text-align:center;padding:25px;color:#777}
+</style>
+</head>
+<body>
+<header>
+<h1>ZUMA DATA</h1>
+<p>Buy Data • Stay Connected</p>
+</header>
+<div class="wallet">
+<p>My Wallet</p>
+<div class="balance">₦0.00</div>
+<p>Demo balance only</p>
+<br>
+<button onclick="alert('Wallet coming soon!')">Fund Wallet</button>
+</div>
+<h2>Our Services</h2>
+<div class="services">
+<div class="service"><span>📶</span>Buy Data</div>
+<div class="service"><span>📱</span>Buy Airtime</div>
+<div class="service"><span>⚡</span>Electricity</div>
+<div class="service"><span>📺</span>Cable TV</div>
+<div class="service"><span>💳</span>Wallet</div>
+<div class="service"><span>🧾</span>Transactions</div>
+</div>
+<footer>Zuma Data © 2026</footer>
+</body>
+</html>
